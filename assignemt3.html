@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie de Imagini</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 70px;
+            max-width: 1200px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .image-box {
+            width: 160px;
+            height: 130px;
+            background: #78A7D2;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            flex-direction: column;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .image-box img {
+            width: 90px;
+            height: 80px;
+        }
+
+        .image-title {
+            width: 100%;
+            padding: 10px 0;
+            background: white;
+            text-align: center;
+            font-size: 16px;
+            color: #000;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .description,
+        h2 {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 1100px;
+            width: 100%;
+            margin-top: 40px;
+
+        }
+
+        @media screen and (max-width: 1024px) {
+            .gallery {
+                max-width: 1200px;
+            }
+
+            .description,
+            h2 {
+                max-width: 1100px;
+                margin-left: 40px;
+                margin-right: 50px;
+            }
+        }
+
+
+        @media screen and (max-width: 768px) {
+            .gallery {
+                max-width: 700px;
+            }
+
+            .description,
+            h2 {
+                max-width: 650px;
+                margin-left: 40px;
+                margin-right: 50px;
+            }
+        }
+
+        @media screen and (max-width: 414px) {
+            .gallery {
+                max-width: 350px;
+            }
+
+            .description,
+            h2 {
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>
+            Gallery Heading
+        </h2>
+    </header>
+    <div class="gallery">
+        <div class="image-box"><img src="./placeholder-image.png" alt="Icon">
+            <div class="image-title">Image Title</div>
+        </div>
+        <div class="image-box"><img src="placeholder-image.png" alt="Icon">
+            <div class="image-title">Image Title</div>
+        </div>
+        <div class="image-box"><img src="placeholder-image.png" alt="Icon">
+            <div class="image-title">Image Title</div>
+        </div>
+        <div class="image-box"><img src="placeholder-image.png" alt="Icon">
+            <div class="image-title">Image Title</div>
+        </div>
+        <div class="image-box"><img src="placeholder-image.png" alt="Icon">
+            <div class="image-title">Image Title</div>
+        </div>
+        <div class="image-box"><img src="placeholder-image.png" alt="Icon">
+            <div class="image-title">Image Title</div>
+        </div>
+        <div class="image-box"><img src="placeholder-image.png" alt="Icon">
+            <div class="image-title">Image Title</div>
+        </div>
+        <div class="image-box"><img src="placeholder-image.png" alt="Icon">
+            <div class="image-title">Image Title</div>
+        </div>
+        <div class="image-box"><img src="placeholder-image.png" alt="Icon">
+            <div class="image-title">Image Title</div>
+        </div>
+        <div class="image-box"><img src="placeholder-image.png" alt="Icon">
+            <div class="image-title">Image Title</div>
+        </div>
+    </div>
+    <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, itaque quod maxime harum
+        officia cupiditate aliquid fuga, adipisci mollitia deserunt eos provident possimus exercitationem? Delectus,
+        similique alias ex neque cumque maxime itaque placeat impedit qui, rerum iure ad fugit earum facere! Unde quis
+        ex ratione amet libero tempora exercitationem magni pariatur temporibus velit, at dolores, alias ipsam
+        distinctio ullam voluptatibus, numquam debitis. Veritatis consectetur vero quas commodi nostrum velit culpa ipsa
+        odit, deserunt numquam id, unde quaerat obcaecati repellendus, corrupti eaque voluptas sed. Aut commodi
+        explicabo sapiente aliquam, ut veritatis voluptatibus omnis saepe corporis aliquid libero deserunt debitis
+        mollitia. Nihil iure excepturi iusto iste architecto aliquid dolores quia nemo cum perspiciatis dignissimos
+        repellat illo doloremque reprehenderit, ducimus a expedita. Nesciunt!</p>
+
+</body>
+
+</html>
